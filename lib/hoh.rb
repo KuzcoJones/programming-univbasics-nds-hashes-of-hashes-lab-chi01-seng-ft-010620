@@ -41,5 +41,5 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-  this_hash = {:Kingdom => {:Phylum => :Class => {:Order => {:Family => {:Genus}}}}
+  this_hash = {:Kingdom => {}}
 end
